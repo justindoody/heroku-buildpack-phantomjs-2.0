@@ -1,18 +1,9 @@
-Heroku buildpack: PhantomJS
-=======================
+# Heroku buildpack: PhantomJS 2.0
 
 This is a [Heroku buildpack](http://devcenter.heroku.com/articles/buildpacks) of PhantomJS(http://phantomjs.org).
 
-Usage
------
-
-Example usage:
+## Usage
 
 ```shell
-$ heroku create --stack cedar --buildpack https://github.com/stomita/heroku-buildpack-phantomjs.git
-
-# or if your app is already created:
-$ heroku buildpacks:add https://github.com/stomita/heroku-buildpack-phantomjs
-
-$ git push heroku master
+$ heroku buildpacks:add https://github.com/justindoody/heroku-buildpack-phantomjs-2.0
 ```
